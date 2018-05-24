@@ -41,24 +41,4 @@ $ca->setTemplate('clientareadigiid');
 
 $ca->output();
 
-
-/*
-
-
-
-	$addon = mysql_fetch_array(mysql_query("SELECT * FROM `mod_addondir` WHERE `safeurl` = '".$safeurl."'"));
-	$get_screenshots = mysql_query("SELECT * FROM `mod_addondir_screenshots` WHERE `addonid` = '".$addon[id]."'");
-	
-	$pagetitle = $addon[title];
-	
-	initialiseClientArea("Digi-ID",'',$breadcrumbnav);
-
-	$smartyvalues["addon"] = $addon;
-	$smartyvalues["hideclientbar"] = true;
-
-
-	$templatefile = "clientareadigiid"; 
-	outputClientArea($templatefile);
-*/
-
 ?>
